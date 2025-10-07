@@ -1,5 +1,4 @@
 ; server_fixed.asm - simple TCP echo server (ELF32 NASM)
-; compile: nasm -f elf32 server_fixed.asm && ld -m elf_i386 -o server_fixed server_fixed.o
 bits 32
 global _start
 
