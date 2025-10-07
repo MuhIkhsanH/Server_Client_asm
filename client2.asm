@@ -1,5 +1,4 @@
 ; client_fixed2.asm - connect to 127.0.0.1:8080, send message, recv echo, print
-; compile: nasm -f elf32 client_fixed2.asm && ld -m elf_i386 -o client_fixed2 client_fixed2.o
 bits 32
 global _start
 
